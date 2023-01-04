@@ -1,4 +1,10 @@
 #!/usr/bin/python3
-def magic_string(H=[]):
-    H += ["BestSchool"]
-    return (", ".join(H))
+"""This defines a locked class"""
+
+
+class LockedClass:
+    """
+    Only allows instatiation of an attribute called first_name
+    """
+
+    __slots__ = ["first_name"]
