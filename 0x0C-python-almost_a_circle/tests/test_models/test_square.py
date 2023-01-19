@@ -1,6 +1,5 @@
 
 #!/usr/bin/python3
-
 """Defines unittests for models/square.py.
 Unittest classes:
     TestSquare_instantiation - line 24
@@ -298,7 +297,7 @@ class TestSquare_y(unittest.TestCase):
             Square(1, 1, float('nan'))
 
     def test_negative_y(self):
-        with self.assertRaisesRegex(ValueError, "y must be >= 0"):
+with self.assertRaisesRegex(ValueError, "y must be >= 0"):
             Square(3, 0, -1)
 
 

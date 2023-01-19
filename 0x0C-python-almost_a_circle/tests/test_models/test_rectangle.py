@@ -1,5 +1,5 @@
-#!/usr/bin/python3
 
+#!/usr/bin/python3
 """Defines unittests for models/rectangle.py.
 Unittest classes:
     TestRectangle_instantiation - line 25
@@ -297,7 +297,7 @@ class TestRectangle_x(unittest.TestCase):
             Rectangle(1, 2, (1, 2, 3), 2)
 
     def test_frozenset_x(self):
-        with self.assertRaisesRegex(TypeError, "x must be an integer"):
+with self.assertRaisesRegex(TypeError, "x must be an integer"):
             Rectangle(1, 2, frozenset({1, 2, 3, 1}))
 
     def test_range_x(self):
@@ -521,7 +521,7 @@ class TestRectangle_stdout(unittest.TestCase):
         self.assertEqual(display, capture.getvalue())
 
     def test_display_width_height_x_y(self):
-        r = Rectangle(2, 4, 3, 2, 0)
+r = Rectangle(2, 4, 3, 2, 0)
         capture = TestRectangle_stdout.capture_stdout(r, "display")
         display = "\n\n   ##\n   ##\n   ##\n   ##\n"
         self.assertEqual(display, capture.getvalue())
