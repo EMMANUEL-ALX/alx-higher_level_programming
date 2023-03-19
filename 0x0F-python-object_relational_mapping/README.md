@@ -1,10 +1,10 @@
 # Python - Object-relational mapping
 
-In this project, I learned about how object-relational mapping is used for
-database scripting. I became familiar with using MySQLdb and SQLAlchemy to
+From the  project, I learned about how object-relational mapping is used for
+database scripting. I got familiarize  with using MySQLdb and SQLAlchemy to
 query, create, edit, and delete tables in MySQL.
 
-## Tests :heavy_print_mark:
+## Tests :page_save_mark:
 
 * [tests](./tests): Folder of SQL and Python scripts for setting up test tables
 for all files. Provided by ALX.
